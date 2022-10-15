@@ -98,3 +98,8 @@ Resources:
       RestApiId:
         Ref: RestAPI
       StageName: v1
+      StageDescription:
+        CacheClusterEnabled: true
+        CacheClusterSize: 0.5
+        CacheTtlInSeconds: 300
+        CachingEnabled: true

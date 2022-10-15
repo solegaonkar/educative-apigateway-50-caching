@@ -1,3 +1,14 @@
+# --------------------------------------------------------------------------- 
+# Filename: /home/ubuntu/wip/educative-apigateway-50-caching/run.sh            #
+# Path: /home/ubuntu/wip/educative-apigateway-50-caching                       #
+# Created Date: Saturday, October 15th 2022, 8:08:31 am                        #
+# Author: Vikas K Solegaonkar                                                  #
+#                                                                              #
+# Copyright (c) 2022 Vikas K Solegaonkar                                       #
+# --------------------------------------------------------------------------- 
+
+
+
 #!/bin/sh -v
 
 # -----------------------------------------------------------------
@@ -76,4 +87,8 @@ echo $url
 # -----------------------------------------------------------------
 # Invoke the URL to test the response
 # -----------------------------------------------------------------
+curl $url
+sleep 1
+curl $url
+sleep 1
 curl $url
